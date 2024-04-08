@@ -1,3 +1,7 @@
+const myLibrary = [];
+
+
+
 function Book(title, author, pages, read) {
  this.title = title;
  this.author = author;
@@ -15,3 +19,9 @@ const book2 = new Book('Fourth Wing', 'Rebecca Yarros', '651 pages', 'mid-read')
 console.log(book1);
 
 console.log(book2.getDetails());
+
+
+
+function addBookToLibrary() {
+    // do stuff here
+  }
