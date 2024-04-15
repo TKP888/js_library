@@ -28,7 +28,7 @@ select{
 
 button{
     border: white solid 2px;
-    font-size: x-large;
+    font-size: large;
     border-radius: 10px;
     background-color: rgb(38, 182, 192);
 }
@@ -45,4 +45,15 @@ margin-top: 50px;
 
 
     /* visibility: hidden; */
+}
+
+.bookCard {
+    display: inline-block;
+    /* align-items: center;
+   justify-content: center; */
+   border: white solid 5px;
+     background-color: #4c7895;
+     padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
 }

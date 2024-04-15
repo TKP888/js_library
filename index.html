@@ -5,28 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
     <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js"></script>
 </head>
 <body>
    <h1>Welcome To The LIBRARY</h1>
-   <button id="newBook">Add Book</button>
 
-   <form>
-    <Label>Book Name</Label>
-    <input type="text">
-    <Label>Author</Label>
-    <input type="text">
-    <Label>Number of Pages</Label>
-    <input type="number">
-    <Label>Read?</Label>
-    <select type="select">
-<option value="yes">Yes</option>
-<option value="no">No</option>
-        </select>
-        <button type="submit">Enter</button>
+   <button id="newBookBtn">Add Book</button>
+
+   <form id="newBookForm" style="display: none;">
+    <Label for="title">Title:</Label>
+    <input type="text" id="title">
+    <Label for="author">Author:</Label>
+    <input type="text" id="author">
+    <Label for="pages" >Number of Pages:</Label>
+    <input type="number" id="pages">
+    <Label for="read">Read:</Label>
+    <input type="checkbox" id="read">
+    <input type="submit" value="Add Book">
    </form>
+<div id="library"></div>
 
 
 
+   <script src="./script.js"></script>
 </body>
 </html
