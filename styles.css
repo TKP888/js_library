@@ -1,59 +1,65 @@
-body{
-    background-color: #252525;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: azure;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: #252525;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: azure;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
-h1{
-    font-weight: bold;
-    align-items: center;
-    justify-self: center;
-
+h1 {
+  font-weight: bold;
+  align-items: center;
+  justify-self: center;
 }
 
-label{
-    font-weight: bold;
-    justify-self: center;
-    font-size: larger;
+label {
+  font-weight: bold;
+  justify-self: center;
+  font-size: larger;
 }
 
 input,
-select{
-    border: white solid 2px;
-    border-radius: 10px;
+select {
+  border: white solid 2px;
+  border-radius: 10px;
 }
 
-button{
-    border: white solid 2px;
-    font-size: large;
-    border-radius: 10px;
-    background-color: rgb(38, 182, 192);
+button {
+  border: white solid 2px;
+  font-size: large;
+  border-radius: 10px;
+  background-color: rgb(38, 182, 192);
 }
 
-form{
-display: grid;
-border: white solid 5px;
-border-radius: 25px;
-background-color: #4c7895;
-padding: 40px;
-gap: 20px;
-margin-top: 50px;
+form {
+  display: grid;
+  border: white solid 5px;
+  border-radius: 25px;
+  background-color: #4c7895;
+  padding: 40px;
+  gap: 20px;
+  margin-top: 50px;
+}
 
+#error {
+  color: red;
+  font-weight: bold;
+  font-size: large;
+  justify-self: center;
+  margin-top: 20px;
+  margin-bottom: -20px;
 
-
-    /* visibility: hidden; */
+  /* visibility: hidden; */
 }
 
 .bookCard {
-    display: inline-block;
-    /* align-items: center;
+  display: inline-block;
+  /* align-items: center;
    justify-content: center; */
-   border: white solid 5px;
-     background-color: #4c7895;
-     padding: 20px;
-    margin: 50px;
-    border-radius: 15px;
+  border: white solid 5px;
+  background-color: #4c7895;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 15px;
 }
